@@ -1,0 +1,102 @@
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+  font-size: 1.2rem;
+}
+
+.header{
+  width: 100%;
+  margin: auto 0px;
+  color: white;
+  background: grey;
+  text-align: center;
+  border: 1px solid;
+  padding: 20px;
+}
+
+
+.formedit{
+  padding-left: 39%;
+  background-color: lightgrey;
+}
+
+.subB{
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 80px;
+  margin-left: 10%;
+
+}
+
+textarea{
+  margin-top: 30px;
+  padding: 10px;
+}
+
+textarea:focus{
+  background: #a5cecd;
+
+}
+
+
+label{
+  padding-left: 10px;
+}
+
+input[type=text].smallerLabel{
+  width: 12%;
+}
+
+.compSize{
+  font-family: Verdana;
+}
+
+.industry{
+  font-family: Verdana;
+  margin-top: 5px;
+}
+
+.yo{
+  padding-left: 40px;
+}
+
+
+input[type=text]{
+  padding:13px 20px;
+  margin: 15px 0;
+  width: 30%;
+  border: 1px solid;
+  border-radius: 50px;
+  font-family: Verdana;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=email]{
+  padding:13px 20px;
+  margin: 15px 0;
+  width: 30%;
+  border: 1px solid;
+  border-radius: 50px;
+  font-family: Verdana;
+}
+
+input[type=email]:focus {
+    background-color: lightblue;
+  }
+
+
+select{
+  width:15%;
+  border: 1px solid #bbb;
+  padding:.75em 1em .5em 1em;
+  box-shadow: 0 2px 1px 0 rgba(0,0,0,0.2);
+  background-color: white;
+  font-size: 16px;
+
+  }

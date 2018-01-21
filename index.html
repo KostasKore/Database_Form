@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>Complete the Form</h1>
+</div>
+
+<div class="container">
+  <div class="form">
+    <form action="dbconn.php" method="post" class="formedit">
+
+
+      <label for="companyName">Name of the Company*</label><br>
+      <input type="text" name="companyName" placeholder="xp Zertificon..." required><br>
+
+      <label for="details">Contact person details*</label><br>
+      <input type="text" name="details" placeholder=" Vorname..." required><br>
+
+      <label for="address">Company Address</label><br>
+      <input type="text" name="address" placeholder="xp Landsberger Alle...">
+      <input type="text" name="addnumber" placeholder="Number..." class="smallerLabel">
+      <input type="text" name="plz" placeholder="PLZ" class="smallerLabel">
+      <br>
+
+      <label for="email">Email Address*</label><br>
+      <input type="email" name="email" placeholder="xp abc@hotmail.com" required><br>
+
+      <label for="phone">Phone Number</label><br>
+      <input type="text" name="phone" placeholder="Your Phone Number..."><br>
+
+      <label class="compSize">Company Size:(Choose from the list)</label>
+      <p class="yo">* staff</p>
+
+      <select name="size" class="staff">
+        <option value="-">----</option>
+        <option value="small">Small Office < 10*</option>
+        <option value="SMB">SMB < 50*</option>
+        <option value="medium">Medium < 250* </option>
+        <option value="large">Large Company > 250*</option>
+      </select>
+      <br>
+
+      <label class="industry">Industry:</label><br>
+
+        <select name="indust" id="change" onchange="A()">
+          <option value="-">----</option>
+          <option value="health">Health</option>
+          <option value="energy">Energy</option>
+          <option value="IT">IT</option>
+          <option value="edu">Education</option>
+          <option value="retail">Retail</option>
+          <option value="bank">Bank</option>
+          <option value="insurance">Insurance</option>
+          <option value="automotive">Automotive</option>
+          <option value="other">Other</option>
+        </select><br>
+
+
+        <input type="text" name="other" id="hidden" style="display: none;" >
+
+
+        <textarea name="textArea" rows="5" cols="40" maxlength="800" placeholder="Your message..." ></textarea><br>
+
+
+      <input type="submit" value="submit" name="sub_button" class="subB">
+    </form>
+
+  </div>
+</div>
+
+
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
